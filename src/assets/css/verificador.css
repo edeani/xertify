@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.text-xertify{color: #35DF86!important;}
+.xertify-btn-verificator{ background: #35DF86!important; color: #fff; padding: 0 16px !important;}
+.xertify-btn-verificator:hover{ background: #29AB68!important; color: #fff}
+.xertify-btn-verificator i{font-size: 35px; line-height: 42px;}
+.alert-modern:after{ display:none}
+#footers-footer-2{position: fixed; bottom: 0; width: 100%;}
+#footers-footer-2 .padding_ft{padding:10px 0;}	
+
+@media screen and (max-width: 1200px) {
+
+#footers-footer-2{position: inherit;}
+#footers-footer-2 .padding_ft{padding:20px 0;}	
+	
+}
