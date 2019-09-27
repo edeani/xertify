@@ -29,21 +29,7 @@
           <div class="col-lg-6">
             <div class="pt-lg text-center">
               <h2 class="h1 text-white mb-3"><span class="titulo_doc">Digita el código del certificado que deseas</span> <span class="text-xertify typed" id="type-example" data-type-this="verificar.,"></span></h2>
-              <div class="mt-3 px-0">
-                <form>
-                  <div class="form-group mb-0">
-                    <div class="input-group input-group-lg input-group-merge rounded-pill bg-white">
-                      <input type="email" class="form-control form-control-flush" name="email" placeholder="Escribe tu código" aria-label="Escribe tu c&oacute;digo"
-                             (keyup.enter)="verify($event)"
-                             ([ngModel])="valueVerify">
-                      <div class="input-group-append">
-                        <button class="btn xertify-btn-verificator" type="button"> <i class="fa fa-check-circle" aria-hidden="true"></i> </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="alert alert-modern alert-danger mt-2" role="alert"> <strong class="pr-0 pl-2">Código incorrecto, intentalo nuevamente </strong> </div>
-                </form>
-              </div>
+              <app-form-data></app-form-data>
             </div>
           </div>
         </div>

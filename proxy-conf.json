@@ -1,0 +1,6 @@
+{
+	"/api":{
+		"target":"https://0lzbld9qif.execute-api.us-east-1.amazonaws.com",
+		"secure":true
+	}
+}
